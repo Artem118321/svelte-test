@@ -1,0 +1,2 @@
+<h1>Блог</h1>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex provident excepturi odio sapiente velit dolorum voluptas voluptatibus, similique vitae? Mollitia quibusdam temporibus accusamus repudiandae asperiores assumenda voluptas amet doloremque nostrum?
