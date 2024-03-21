@@ -10,7 +10,7 @@
             <h2>{page.title}</h2>
             <p>{page.body}</p>
             <p class="readmore">
-                <a href={`/blog/posts/${page.id}`} class="link">Читать далее</a>
+                <a class="link" href={`/blog/posts/${page.id}`} >Читать далее</a>
             </p>
         </div>
         {/each}
@@ -25,7 +25,7 @@
     .container{
         margin: 50px auto;
         max-width: 800px;
-        padding:    0 20px;
+        padding: 0 20px;
     }
 
     .blogposts{
