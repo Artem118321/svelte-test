@@ -7,6 +7,9 @@
 <header class="header">
     <img class="header-logo" src="/svelte-test/img/1.webp"  alt="" width="200px" height="100px">
 </header>
+<body>
+    
+
 <b><p>Доступные туры</p> </b>
 <div class="row">
 
@@ -56,7 +59,7 @@
             К самым живописным курортам Маврикия относится небольшой город Гранд-Бэй, расположенный в бухте на севере острова.</div>
         </div>
           </div>
-
+</body>
           <footer>
             <hr>
             Соликамск, 2024 <br>
@@ -128,7 +131,7 @@
   width: 100%;
   }
   
-  img, svg {
+  img {
       vertical-align: middle;
   }
 
@@ -151,57 +154,9 @@
     color: white;
   }
   
-  .info{
-      text-align: center;
-      position: relative;
-  }
+
   
-  .info-container{
-      height: 100%;
+
   
-  }
-  
-  .container{
-      display: flex;
-      max-width: 1400px;
-      margin: 190px 0 0 2.5rem;
-  }
-  
-  .info h1{
-      font-size: 4rem;
-      margin: 0;
-  }
-  
-  .info h1 p{
-      position: relative;
-      font: inherit;
-      margin: 0;
-      text-align: left;
-      line-height: 130%;
-      width: fit-content;
-      font-weight: 800;
-      letter-spacing: -0.03em;
-  }
-  
-  .info h2{
-      max-width: 65ch;
-      font-weight: 200;
-      margin-top: 0.50rem;
-  }
-  
-  
-  .info .info-text{
-      position: relative;
-  }
-  
-  .scroll-button{
-      display: flex;
-      border: none;
-      outline: none;
-      cursor: pointer;
-  }
-  
-  .scroll-button .arrow{
-  margin-left: 0.50rem;
-  }
+
           </style>
