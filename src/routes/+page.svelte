@@ -2,6 +2,9 @@
     <title>Тур-агентство</title>
 </svelte:head>
 
+<div class="picture">
+    <img src="/svelte-test/img/1.webp" alt="">
+</div>
 <div class="container">
     <div class="info">
         <div class="animate-background">
@@ -24,6 +27,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, autem?
 
 
 <style>
+
+    .picture{
+        float: left;
+    }
 .info{
     text-align: center;
     position: relative;
