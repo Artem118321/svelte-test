@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Тур-агентство</title>
-<link rel="stylesheet" href="stt.css">
+<link rel="stylesheet" href="/svelte-test/css/style.css">
 </svelte:head>
 
 <b><p>Тур-агентство</p></b>
