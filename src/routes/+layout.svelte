@@ -24,12 +24,3 @@
     ]
 </script>
 
-<style>
-    .nav-links{
-        text-align: center;
-    }
-    .container{
-        max-width: 1400px;
-        margin: 50px auto;
-    }
-</style>

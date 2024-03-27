@@ -15,7 +15,7 @@
 
     <div class="column">
         <div class="centr">
-            <img style="text-align: center;"  src="/svelte-test/img/11.webp" alt="" height="120px" width="100px">
+            <img style="text-align: center;"  src="/svelte-test/img/11.webp" alt="" height="120px" width="100px" />
         </div>
       <div class="card"><a href="/">Тенерифе, Испания</a> <br>
         Это самое популярное курортное место в составе Канарских островов Испании. Тенерифе омывается водами Атлантического океана, и круглый год температура воздуха здесь не опускается ниже +21 ⁰С.</div>
