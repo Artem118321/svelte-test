@@ -1,96 +1,64 @@
 <svelte:head>
     <title>Тур-агентство</title>
+<link rel="stylesheet" href="stt.css">
 </svelte:head>
 
-<div class="picture">
-    <img src="/svelte-test/img/1.webp" alt="">
-</div>
-<div class="container">
-    <div class="info">
-        <div class="animate-background">
-            <div class="container info-container">
-<div class="info-text">
-    <h1>
-        <p class="animte-text-1">Lorem ipsum dolor sit amet.</p>
-        <p class="text-2">Lorem ipsum dolor sit amet consectetur.</p>
-    </h1>
-</div>
-<h2 class="subtitle">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, autem?
-</h2>
-            </div>
+<b><p>Тур-агентство</p></b>
+<header class="header">
+    <img class="header-logo" src="/svelte-test/img/1.webp"  alt="" width="200px" height="100px">
+</header>
+<b><p>Доступные туры</p> </b>
+<div class="row">
+
+    <div class="column">
+        <div class="centr">
+            <img style="text-align: center;"  src="svelte-test/img/11.webp" alt="" height="120px" width="100px">
         </div>
+      <div class="card"><a href="/">Тенерифе, Испания</a> <br>
+        Это самое популярное курортное место в составе Канарских островов Испании. Тенерифе омывается водами Атлантического океана, и круглый год температура воздуха здесь не опускается ниже +21 ⁰С.</div>
     </div>
-</div>
+    <div class="column">
+        <div class="centr">
+            <img style="text-align: center;"  src="svelte-test/img/2.webp" alt="" height="120px" width="100px">
+        </div>
+      <div class="card"><a href="/">Сен-Тропе, Франция</a> <br>
+        В список самых известных курортов Европы входит Сен-Тропе на Лазурном Берегу Франции. Небольшой элитный город находится на побережье Средиземного моря.</div>
+    </div>
+    <div class="column">
+        <div class="centr">
+            <img style="text-align: center;"  src="svelte-test/img/3.webp" alt="" height="120px" width="100px">
+        </div>
+      <div class="card"><a href="/">Пафос, Кипр</a> <br>
+        Самый дорогой курорт на острове Кипр популярен среди туристов. Здесь расположены лучшие пятизвёздочные отели, престижные рестораны и пляжи.</div>
+    </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+            <div class="centr">
+                <img style="text-align: center;"  src="svelte-test/img/4.webp" alt="" height="120px" width="100px">
+            </div>
+          <div class="card"><a href="/">Рио-де-Жанейро, Бразилия</a>  <br>
+            На крупном оживлённом курорте находятся лучшие пляжи Бразилии: Копакабана, Леблон и Ипанема.</div>
+        </div>
+        <div class="column">
+            <div class="centr">
+                <img style="text-align: center;"  src="svelte-test/img/5.webp" alt="" height="120px" width="100px">
+            </div>
+          <div class="card"><a href="/">Маэ, Сейшельские Острова</a> <br>
+            Здесь находится столица Виктория и более 60 песчаных пляжей с белым песком и тропической растительностью.</div>
+        </div>
+        <div class="column">
+            <div class="centr">
+                <img style="text-align: center;"  src="svelte-test/img/6.webp" alt="" height="120px" width="100px">
+            </div>
+          <div class="card"><a href="/">Гранд-Бэй, Маврикий</a> <br>
+            К самым живописным курортам Маврикия относится небольшой город Гранд-Бэй, расположенный в бухте на севере острова.</div>
+        </div>
+          </div>
 
-<div class="background-div"></div>
-
-
-<style>
-
-    .picture{
-        float: left;
-    }
-.info{
-    text-align: center;
-    position: relative;
-}
-
-.info-container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    align-items: start;
-}
-
-.container{
-    max-width: 1400px;
-    margin: 190px 0 0 2.5rem;
-}
-
-.info h1{
-    font-size: 4rem;
-    margin: 0;
-}
-
-.info h1 p{
-    position: relative;
-    font: inherit;
-    margin: 0;
-    text-align: left;
-    line-height: 130%;
-    width: fit-content;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-}
-
-.info h2{
-    max-width: 65ch;
-    font-weight: 200;
-    margin-top: 0.50rem;
-}
-
-.background-div{
-    background-color: lightgreen;
-    width: 100%;
-    height: 56vh;
-    margin: -205px auto;
-}
-
-.info .info-text{
-    position: relative;
-}
-
-.scroll-button{
-    display: flex;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.scroll-button .arrow{
-margin-left: 0.50rem;
-}
-</style>
+          <footer>
+            <hr>
+            Соликамск, 2024 <br>
+            Игнатов Артём ИСП-2
+          </footer>
