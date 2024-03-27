@@ -69,7 +69,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, autem?
 }
 
 .background-div{
-    background-color: #ecebe8;
+    background-color: green;
     width: 100%;
     height: 56vh;
     margin: -205px auto;
