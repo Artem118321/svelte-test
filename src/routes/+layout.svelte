@@ -15,36 +15,6 @@
     <slot></slot>
 </div>
 
-<script>
-    const nav = [
-{
-    title: 'Обо мне',
-    href: '/about',
-    isShow: true
-},
-{
-    title: 'Блог',
-    href: '/blog',
-    isShow: true
-},
-{
-    title: 'Портфолио',
-    href: '/project',
-    isShow: true
-},
-{
-    title: 'Контакты',
-    href: '/contact',
-    isShow: true
-},
-{
-    title: 'temp',
-    href: '/temp',
-    isShow: false
-}
-    ]
-</script>
-
 <style>
     .container{
         max-width: 1400px;
