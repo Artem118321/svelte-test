@@ -23,6 +23,5 @@
     isShow: true
 }
     ]
-    import logo from "/svelte-test/img/11";
 </script>
 

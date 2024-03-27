@@ -15,7 +15,7 @@
     <div class="column">
         <div class="centr">
             
-            <enhanced:img src="/svelte-test/img/11.webp" alt="An alt text" />
+          <img src="/svelte-test/img/11.webp" alt="">
         </div>
       <div class="card"><a href="/">Тенерифе, Испания</a> <br>
         Это самое популярное курортное место в составе Канарских островов Испании. Тенерифе омывается водами Атлантического океана, и круглый год температура воздуха здесь не опускается ниже +21 ⁰С.</div>
@@ -66,7 +66,7 @@
             Соликамск, 2024 <br>
             Игнатов Артём ИСП-2
           </footer>
-          <style>
+<style>
             .row {
     box-sizing: border-box;
     display: flex;
@@ -153,5 +153,4 @@
   a:hover{
     color: white;
   }
-  
           </style>
