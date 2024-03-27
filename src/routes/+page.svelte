@@ -15,9 +15,6 @@
 <h2 class="subtitle">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, autem?
 </h2>
-<div style="color:black" class="scroll-button animate-scroll" tabindex="0">
-<a href="/about">Click Here</a> <div class="arrow">-</div>
-</div>
             </div>
         </div>
     </div>
@@ -69,7 +66,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, autem?
 }
 
 .background-div{
-    background-color: green;
+    background-color: lightgreen;
     width: 100%;
     height: 56vh;
     margin: -205px auto;
